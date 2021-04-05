@@ -28,11 +28,11 @@ create table if not exists timing
 );
 
 insert into users (id, name, last_name, email, age, price)
-VALUES (1, 'vasya', 'pupkin', 'vasya@mail.ru', 21, '45000'),
-       (2, 'mihail', 'ryabov', 'mihail.ryabov.2002@mail.ru', 19, '35000'),
-       (3, 'anton', 'ershov', 'ahtoika12@gmail.com', 19, '58000'),
-       (4, 'jenya', 'pochkin', 'pochka@mail.ru', 19, '64000'),
-       (6, 'vova', 'kursanov', 'vovak@mail.ru', 19, '40000'),
-       (7, 'egor', 'biridze', 'egor.biridze@mail.ru', 19, '27000');
+VALUES (1, 'vadim', 'myasnikov', 'myaso@gmail.ru', 23, '45000'),
+       (2, 'yulia', 'leshvanova', 'leshvanova2003@gmail.ru', 17, '35000'),
+       (3, 'artyom', 'salikhov', 'artyom2022@gmail.com', 19, '58000'),
+       (4, 'vadim', 'kim', 'kim2555@mail.ru', 19, '64000'),
+       (6, 'vlad', 'stepanov', 'styopa2898@gmail.com', 19, '40000'),
+       (7, 'nikita', 'kholod', '1mmswith12000@mail.ru', 19, '27000');
 
 select id, name, last_name, email, price from users;
